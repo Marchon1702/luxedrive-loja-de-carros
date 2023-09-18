@@ -62,15 +62,138 @@ nav#menu {
     margin-top: 2px;
     margin-bottom: 20px;
     cursor: pointer;
-    color: #929292;
+    color: #ffffff;
 }
 
 nav > ul {
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 nav > ul > li {
     list-style: none;
     padding: 13px;
     cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px black;
+}
+
+nav > ul > li:hover {
+    background-color: #2B3856;
+    border-radius: 10px;
+}
+
+#direitos {
+    color: white;
+    text-align: center;
+}
+
+#backgroundbanner {
+    display: block;
+    background-image: url(../imagens/backgorundbanner.jpg);
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#meuscarros ul {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style: none;
+}
+
+#meuscarros ul li {
+    margin: 10px;
+    cursor: pointer;
+}
+
+#meuscarros ul li:hover {
+    color: #FFD700;
+}
+
+#apresentaçao {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#apresentaçao > p {
+    text-indent: 20px;
+    margin: 10px;
+}
+
+.dourado {
+    font-weight: bolder;
+    color: #2B3856;
+}
+#sugestoes, #sugestoes2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.op {
+    height: 330px;
+    width: 70%;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+.op > h3 {
+    margin-bottom: 5px;
+}
+
+.op > p {
+    text-align: left;
+    text-indent: 10px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.imagens {
+    width: 100%;
+    height: 70%;
+}
+
+.mais {
+    text-decoration: none;
+    color: #000000;
+}
+
+.mais::after {
+  content: '⚜️';
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+hr {
+    margin: 10px 0px;
+}
+
+section#rodape ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#rodape ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+section#rodape ul li img {
+    width: 20px;
+    height: 20px;
 }
