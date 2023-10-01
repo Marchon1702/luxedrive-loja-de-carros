@@ -91,6 +91,7 @@ nav > ul > li:hover {
 
 #backgroundbanner {
     display: block;
+    background-color: #000000;
     background-image: url(../imagens/backgorundbanner.jpg);
     height: 200px;
     background-position: center center;

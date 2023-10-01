@@ -52,4 +52,9 @@ head {}
         justify-content: center;
         align-items: center;
     }
+
+    #meuscarros ul li {
+        margin-right: 60px;
+        cursor: pointer;
+    }
 }
